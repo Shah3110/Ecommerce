@@ -34,7 +34,10 @@ body
 #shopName 
 {
     font-size: 40px; 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif, cursive;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #333; 
 }
 #shopName a
 {
@@ -62,7 +65,6 @@ body
 .search
 {
     padding: 14px;
-    /* color: gray; */
     color: rgb(29, 29, 29);
     min-width: 25px;
     text-align: center;
@@ -77,7 +79,6 @@ body
 #user
 {
     display: flex;
-    /* float: right; */
     align-items: center;
 }
 
@@ -106,8 +107,6 @@ body
 {
     color: rgb(29, 29, 29)
 }
-
-/* ----------------------------- MEDIA QUERY --------------------------- */
 
 @media(max-width: 1300px)
 {
@@ -193,7 +192,7 @@ body
     }
 }
 
-/* badge media */
+
 
 @media(max-width: 1480px)
 {

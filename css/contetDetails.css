@@ -96,7 +96,6 @@ button a:focus
     outline: none;
 }
 
-/* ----------------------------- MEDIA QUERY --------------------------- */
 
 @media(max-width: 1300px)
 {
